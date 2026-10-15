@@ -1,0 +1,16 @@
+[project]
+name = "llm-gateway"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "dotenv>=0.9.9",
+    "fastapi>=0.142.2",
+    "freezegun>=1.5.5",
+    "openai>=3.26.0",
+    "pytest>=9.1.1",
+    "redis>=8.1.0",
+    "time-machine>=3.5.1",
+    "uvicorn[standard]>=0.54.0",
+]
